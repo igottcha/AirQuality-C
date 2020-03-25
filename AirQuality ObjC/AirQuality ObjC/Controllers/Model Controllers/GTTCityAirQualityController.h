@@ -14,9 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface GTTCityAirQualityController : NSObject
 
-+(void)fetchSupportedCountries:(void(^)(NSArray *))completion;
-+(void)fetchSupportedStatesInCountry:(NSString *)country completion: (void(^)(NSArray *))completion;
-+(void)fetchSupportedCitiesInState:(NSString *)state country: (NSString *)country completion:(void(^)(NSArray *))completion;
++(void)fetchSupportedCountries:(void(^)(NSArray<NSString *> * _Nullable))completion;
++(void)fetchSupportedStatesInCountry:(NSString *)country completion: (void(^)(NSArray<NSString *> *))completion;
++(void)fetchSupportedCitiesInState:(NSString *)state country: (NSString *)country completion:(void(^)(NSArray<NSString *> *))completion;
 +(void)fetchDataforCity:(NSString *)city state:(NSString *)state country:(NSString *)country completion:(void(^)(GTTCityAirQuality *))completion;
 
 @end

@@ -12,6 +12,11 @@
 		620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCA2385DBF9001500FE /* Assets.xcassets */; };
 		620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620C4FCC2385DBF9001500FE /* LaunchScreen.storyboard */; };
 		620C4FD12385DBF9001500FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C4FD02385DBF9001500FE /* main.m */; };
+		9E8529D0242BF193005924C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8529CF242BF193005924C9 /* Main.storyboard */; };
+		9E8529D3242BF293005924C9 /* GTTCityAirQuality.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529D2242BF293005924C9 /* GTTCityAirQuality.m */; };
+		9E8529D8242BF5C6005924C9 /* GTTPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529D7242BF5C6005924C9 /* GTTPollution.m */; };
+		9E8529DB242BF947005924C9 /* GTTWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529DA242BF947005924C9 /* GTTWeather.m */; };
+		9E8529E1242C0787005924C9 /* GTTCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529E0242C0787005924C9 /* GTTCityAirQualityController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,15 @@
 		620C4FCD2385DBF9001500FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620C4FCF2385DBF9001500FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		620C4FD02385DBF9001500FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E8529CF242BF193005924C9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9E8529D1242BF293005924C9 /* GTTCityAirQuality.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTCityAirQuality.h; sourceTree = "<group>"; };
+		9E8529D2242BF293005924C9 /* GTTCityAirQuality.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTCityAirQuality.m; sourceTree = "<group>"; };
+		9E8529D6242BF5C6005924C9 /* GTTPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTPollution.h; sourceTree = "<group>"; };
+		9E8529D7242BF5C6005924C9 /* GTTPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTPollution.m; sourceTree = "<group>"; };
+		9E8529D9242BF947005924C9 /* GTTWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTWeather.h; sourceTree = "<group>"; };
+		9E8529DA242BF947005924C9 /* GTTWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTWeather.m; sourceTree = "<group>"; };
+		9E8529DF242C0787005924C9 /* GTTCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTCityAirQualityController.h; sourceTree = "<group>"; };
+		9E8529E0242C0787005924C9 /* GTTCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTCityAirQualityController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 		620C4FBD2385DBF6001500FE /* AirQuality ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				9E8529D4242BF296005924C9 /* Models */,
+				9E8529DC242C067B005924C9 /* Controllers */,
+				9E8529D5242BF2A7005924C9 /* Views */,
 				620C4FD72385DDA8001500FE /* Resources */,
 			);
 			path = "AirQuality ObjC";
@@ -74,6 +91,52 @@
 				620C4FD02385DBF9001500FE /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E8529D4242BF296005924C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E8529D1242BF293005924C9 /* GTTCityAirQuality.h */,
+				9E8529D2242BF293005924C9 /* GTTCityAirQuality.m */,
+				9E8529D6242BF5C6005924C9 /* GTTPollution.h */,
+				9E8529D7242BF5C6005924C9 /* GTTPollution.m */,
+				9E8529D9242BF947005924C9 /* GTTWeather.h */,
+				9E8529DA242BF947005924C9 /* GTTWeather.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E8529D5242BF2A7005924C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E8529CF242BF193005924C9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E8529DC242C067B005924C9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E8529DE242C068D005924C9 /* Model Controllers */,
+				9E8529DD242C0686005924C9 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9E8529DD242C0686005924C9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9E8529DE242C068D005924C9 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E8529DF242C0787005924C9 /* GTTCityAirQualityController.h */,
+				9E8529E0242C0787005924C9 /* GTTCityAirQualityController.m */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +165,7 @@
 		620C4FB32385DBF6001500FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = DVM;
+				CLASSPREFIX = GTT;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "RYAN GREENBURG";
 				TargetAttributes = {
@@ -135,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8529D0242BF193005924C9 /* Main.storyboard in Resources */,
 				620C4FCE2385DBF9001500FE /* LaunchScreen.storyboard in Resources */,
 				620C4FCB2385DBF9001500FE /* Assets.xcassets in Resources */,
 			);
@@ -148,8 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
+				9E8529E1242C0787005924C9 /* GTTCityAirQualityController.m in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
+				9E8529DB242BF947005924C9 /* GTTWeather.m in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
+				9E8529D8242BF5C6005924C9 /* GTTPollution.m in Sources */,
+				9E8529D3242BF293005924C9 /* GTTCityAirQuality.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

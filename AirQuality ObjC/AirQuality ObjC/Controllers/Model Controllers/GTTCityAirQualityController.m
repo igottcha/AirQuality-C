@@ -35,6 +35,7 @@ static NSString *const apiKey = @"be597a5a-bfb7-412d-8b98-033a96e0e2cf";
         {
             NSLog(@"%@", error);
             completion(nil);
+            return;
         }
         
         if (!data)
@@ -75,6 +76,7 @@ static NSString *const apiKey = @"be597a5a-bfb7-412d-8b98-033a96e0e2cf";
         {
             NSLog(@"%@", error);
             completion(nil);
+            return;
         }
         
         if (!data)
@@ -117,6 +119,7 @@ static NSString *const apiKey = @"be597a5a-bfb7-412d-8b98-033a96e0e2cf";
         {
             NSLog(@"%@", error);
             completion(nil);
+            return;
         }
         
         if (!data)
@@ -132,7 +135,7 @@ static NSString *const apiKey = @"be597a5a-bfb7-412d-8b98-033a96e0e2cf";
         
         for (NSDictionary *currentDictionary in secondLevelJSON)
         {
-            NSString *state = currentDictionary[@"state"];
+            NSString *state = currentDictionary[@"city"];
             [states addObject:state];
         }
         completion(states);

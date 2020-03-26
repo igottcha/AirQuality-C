@@ -17,6 +17,10 @@
 		9E8529D8242BF5C6005924C9 /* GTTPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529D7242BF5C6005924C9 /* GTTPollution.m */; };
 		9E8529DB242BF947005924C9 /* GTTWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529DA242BF947005924C9 /* GTTWeather.m */; };
 		9E8529E1242C0787005924C9 /* GTTCityAirQualityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529E0242C0787005924C9 /* GTTCityAirQualityController.m */; };
+		9E8529E3242C4F37005924C9 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529E2242C4F37005924C9 /* CountriesTableViewController.swift */; };
+		9E8529E5242C4F4B005924C9 /* StatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529E4242C4F4B005924C9 /* StatesTableViewController.swift */; };
+		9E8529E7242C4F9C005924C9 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8529E6242C4F9C005924C9 /* CitiesTableViewController.swift */; };
+		9EB06E74242C4FE500CEAD76 /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB06E73242C4FE500CEAD76 /* CityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,11 @@
 		9E8529DA242BF947005924C9 /* GTTWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTWeather.m; sourceTree = "<group>"; };
 		9E8529DF242C0787005924C9 /* GTTCityAirQualityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTTCityAirQualityController.h; sourceTree = "<group>"; };
 		9E8529E0242C0787005924C9 /* GTTCityAirQualityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTTCityAirQualityController.m; sourceTree = "<group>"; };
+		9E8529E2242C4F37005924C9 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		9E8529E4242C4F4B005924C9 /* StatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesTableViewController.swift; sourceTree = "<group>"; };
+		9E8529E6242C4F9C005924C9 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		9EB06E73242C4FE500CEAD76 /* CityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
+		9EB06E75242C505300CEAD76 /* AirQuality ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirQuality ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +83,7 @@
 				9E8529DC242C067B005924C9 /* Controllers */,
 				9E8529D5242BF2A7005924C9 /* Views */,
 				620C4FD72385DDA8001500FE /* Resources */,
+				9EB06E75242C505300CEAD76 /* AirQuality ObjC-Bridging-Header.h */,
 			);
 			path = "AirQuality ObjC";
 			sourceTree = "<group>";
@@ -126,6 +136,10 @@
 		9E8529DD242C0686005924C9 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9E8529E2242C4F37005924C9 /* CountriesTableViewController.swift */,
+				9E8529E4242C4F4B005924C9 /* StatesTableViewController.swift */,
+				9E8529E6242C4F9C005924C9 /* CitiesTableViewController.swift */,
+				9EB06E73242C4FE500CEAD76 /* CityDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -211,10 +225,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8529E3242C4F37005924C9 /* CountriesTableViewController.swift in Sources */,
 				620C4FC02385DBF6001500FE /* AppDelegate.m in Sources */,
 				9E8529E1242C0787005924C9 /* GTTCityAirQualityController.m in Sources */,
+				9EB06E74242C4FE500CEAD76 /* CityDetailViewController.swift in Sources */,
 				620C4FD12385DBF9001500FE /* main.m in Sources */,
+				9E8529E5242C4F4B005924C9 /* StatesTableViewController.swift in Sources */,
 				9E8529DB242BF947005924C9 /* GTTWeather.m in Sources */,
+				9E8529E7242C4F9C005924C9 /* CitiesTableViewController.swift in Sources */,
 				620C4FC32385DBF6001500FE /* SceneDelegate.m in Sources */,
 				9E8529D8242BF5C6005924C9 /* GTTPollution.m in Sources */,
 				9E8529D3242BF293005924C9 /* GTTCityAirQuality.m in Sources */,

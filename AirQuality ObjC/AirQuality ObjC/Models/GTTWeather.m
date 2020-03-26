@@ -29,8 +29,8 @@
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     NSInteger temperature = [dictionary[@"tp"] integerValue];
-    NSInteger humidity = [dictionary[@"humidity"] integerValue];
-    NSInteger windSpeed = [dictionary[@"windSpeed"] integerValue];
+    NSInteger humidity = [dictionary[@"hu"] integerValue];
+    NSInteger windSpeed = [dictionary[@"ws"] integerValue];
     
     return [self initWithWeatherInfo:temperature humidity:humidity windSpeed:windSpeed];
 }
